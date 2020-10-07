@@ -1,1 +1,33 @@
-# E31202318_NOFAIRA-AMIN
+import java.util.Scanner;
+
+/**
+ *
+ * @author nofairaamin
+ */
+public class Kelulusan1 {
+    public static void main(String[] args){
+        // TODO code application logic here
+        
+        // Buat Scanner
+        Scanner inp = new Scanner(System.in);
+        
+        // Ambil Nama
+        System.out.print("Masukkan Nama Anda :");
+        String nama = inp.next ();
+        // Ambil NIM
+        System.out.print("Masukkan NIM :");
+        String nim = inp.next();
+        
+        // Ambil Nilai
+        System.out.print("Masukkan Nilai : ");
+        int nilai = inp.nextInt();
+        
+        // Print
+        if (nilai>60){ System.out.println("Anda Lulus");
+        } else {
+        System.out.println("Anda Tidak Lulus");
+        }
+    }
+    
+}
+
